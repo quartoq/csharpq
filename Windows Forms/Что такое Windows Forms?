@@ -1,0 +1,3 @@
+Что такое Windows Forms?
+Windows Forms - это API (Application Programming Interface - интерфейса программирования приложений), который используется в .NET Framework для создания GUI (Graphical User Interface - графический интерфейс пользователя).
+Данный API создаёт обёртку для кода Win32 API и тем самым упрощает доступ к элементам GUI в ОС Microsoft Windows.
