@@ -1,0 +1,7 @@
+Переустановка пакетов Nuget если через графический интерфейс глюки с зависимостями
+Tools -> Nuget Package Manager -> Package Manager Console
+в консоли выполнить команду
+Update-Package –reinstall
+
+ещё глюки могут быть, если файл какой-нибудь readonly будет, nuget внутри упадёт, а ошибку не покажет
+
