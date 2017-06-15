@@ -8,3 +8,6 @@ PM> nuget locals all -clear
 Clearing NuGet HTTP cache: C:\Users\user\AppData\Local\NuGet\v3-cache
 Clearing NuGet cache: C:\Users\user\AppData\Local\NuGet\Cache
 Clearing NuGet global packages cache: C:\Users\user\.nuget\packages\
+
+
+или удалить эти каталоги вручную
