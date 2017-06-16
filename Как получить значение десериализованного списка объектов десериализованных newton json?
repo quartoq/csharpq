@@ -9,3 +9,9 @@ List<object> person = new List<object>
                var str = JsonConvert.SerializeObject(person);
                 dynamic arr = JsonConvert.DeserializeObject<List<dynamic>>(str);
                var name = arr[0].Name;
+
+
+
+также если не анонимными объектами список объектов заполняется, то есть есть класс этих объектов, то можно метить свойства атрибутом
+[JsonProperty(PropertyName="test")] или в более простой записи [JsonProperty("test")]
+и тогда можно будет обращаться в полученном объекте по ключю test, то есть как arr["test"]
