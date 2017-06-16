@@ -1,0 +1,11 @@
+Как получить значение десериализованного списка объектов десериализованных newton json?
+List<object> person = new List<object>
+{
+  new {ID = 1, Name = "Вася", Town = "СПб"},
+  new {ID = 2, Name = "Коля", Town = "Москва"},
+  new {ID = 3, Name = "Петя", Town = "СПб"}
+};
+                //var str = person[0].GetValue<string>("Name");
+               var str = JsonConvert.SerializeObject(person);
+                dynamic arr = JsonConvert.DeserializeObject<List<dynamic>>(str);
+               var name = arr[0].Name;
