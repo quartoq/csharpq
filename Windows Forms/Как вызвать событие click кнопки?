@@ -1,0 +1,9 @@
+Как вызвать событие click кнопки?
+Например, при загрузке формы вызовем событие клика кнопки объявленной как
+private System.Windows.Forms.Button btnTest;
+ 
+ 
+private void frmMainCertSentUtil_Load(object sender, EventArgs e)
+{
+  btnTest.PerformClick();
+}
