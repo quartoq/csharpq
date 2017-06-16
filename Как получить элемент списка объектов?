@@ -13,3 +13,5 @@ var firstItem_ = myList[0];
 var str = person[0].GetValue<string>("Name");
 //или
 var str = x[0].GetPropValue("ID");
+//или
+var str = x[0].GetType().GetProperty("Town").GetValue(x[0]);
