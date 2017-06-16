@@ -1,0 +1,13 @@
+Как получить элемент списка объектов List<object>?
+var myList = new List<string>{ "one", "two", "three"};
+var firstItem = myList.ElementAt(0);
+var firstItem_ = myList[0];
+
+Более сложный случай:
+ List<object> person = new List<object>
+{
+  new {ID = 1, Name = "Вася", Town = "СПб"},
+  new {ID = 2, Name = "Коля", Town = "Москва"},
+  new {ID = 3, Name = "Петя", Town = "СПб"}
+};
+var str = person[0].GetValue<string>("Name");
