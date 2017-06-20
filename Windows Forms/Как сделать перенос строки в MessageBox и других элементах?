@@ -1,0 +1,5 @@
+Как сделать перенос строки в MessageBox и  других элементах?
+\n
+ MessageBox.Show("First line.\nSecond line");
+ 
+ Но лучше исползовать значение Environment.NewLine, к  тому же в TextBox \n не будет работать, а Environment.NewLine будет.
