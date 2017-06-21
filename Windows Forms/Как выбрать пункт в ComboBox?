@@ -1,0 +1,14 @@
+Как выбрать пункт в ComboBox?
+var cb = new System.Windows.Forms.ComboBox();
+
+полезные свойства для этого
+SelectedIndex	
+SelectedItem	
+SelectedValue	
+
+
+cb.Items.Add("test");
+comboBox1.SelectedItem = "test";
+или
+comboBox1.SelectedIndex = comboBox1.FindStringExact("test");
+
