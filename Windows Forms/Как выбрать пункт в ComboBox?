@@ -1,8 +1,13 @@
 Как выбрать пункт в ComboBox?
 var cb = new System.Windows.Forms.ComboBox();
 
+if (cb.Items.Count != 0) cb.SelectedIndex = 0;
+
+
+
 полезные свойства для этого
-SelectedIndex	
+SelectedIndex	 имеет только два значения 0 и -1 (с особенностями установки -1, см. документацию), если пункты есть, то первый из них можно установить через установку SelectedIndex = 0
+другие
 SelectedItem	
 SelectedValue	
 
@@ -11,4 +16,7 @@ cb.Items.Add("test");
 comboBox1.SelectedItem = "test";
 или
 comboBox1.SelectedIndex = comboBox1.FindStringExact("test");
+или для первого пункта
+comboBox1.SelectedIndex = 0;
+
 
