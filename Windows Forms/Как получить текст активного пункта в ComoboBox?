@@ -1,0 +1,11 @@
+Как получить текст активного пункта в ComoboBox?
+cb.Text
+
+
+
+
+так вернётся не текст, а текстовое представление item-а, содержащее ... оно не нам не нужно
+var cv = new ComboBox();
+//add elements
+string selected = cb.GetItemText(this.ComboBox.SelectedItem);
+MessageBox.Show(selected);
