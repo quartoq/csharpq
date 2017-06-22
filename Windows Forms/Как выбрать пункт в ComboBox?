@@ -5,7 +5,8 @@ if (cb.Items.Count != 0) cb.SelectedIndex = 0;
 
 если пунктов нет, то SelectedIndex вернёт -1
 
-SelectedItem	
+cb.SelectedItem получает выбранный объект, в этом объекте могут содержаться любые свойства и методы, из них только два берутся для DisplayMemeber и ValueMember
+
 
 
 
@@ -14,7 +15,8 @@ SelectedItem
 cb.DisplayMember = "имя свойства представляющего пункт комбобокса объекта, которое будет показываться как строка в пункте";
 cb.ValueMember = "имя свойства представляющего пункт комбобокса объекта, которое ассоциировано с предыдущим свойством";
 
-SelectedValue	возвращает для выбранного пункта ValueMember для выбранного DispalyMember
+SelectedValue	возвращает для выбранного пункта ValueMember для выбранного DispalyMember, работает только в механизме привязки, то есть с дополнительным назначением cb.Datasource = объект, который привязывается к комбобоксу, DataSource должен задаваться позже DispalyMember и ValueMember, иначе система не поймёт в качестве чего чего брать
+cb.Items.Add
 
 
 cb.Items.Add("test");
