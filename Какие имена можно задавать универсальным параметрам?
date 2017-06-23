@@ -1,0 +1,3 @@
+Какие имена можно задавать универсальным параметрам?
+Любые, рекомендуются описательные, если без них не особо понятно, какие конкретные типы будут на их месте
+https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/generics/generic-type-parameters
