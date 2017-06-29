@@ -3,6 +3,7 @@ Microsoft Visual C++ Redistributable - пакет с набором библио
 
 
 в названиях можно увидеть VC14 например, программы написанные в visual studio 15 используют функционал этих библиотек, поэтому для того, чтобы они работали нужно установить соответствующий пакет в систему
+с годами путаница, соответствие ниже
 https://support.microsoft.com/ru-ru/help/2977003/the-latest-supported-visual-c-downloads
 Visual Studio 2017 г.
 Visual Studio 2015 г. VC14
