@@ -1,4 +1,0 @@
-var d;
-console.log(!!d);//false
-d = 1;
-console.log(!!d);//true
