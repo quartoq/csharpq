@@ -2,3 +2,12 @@
 В примере ниже оба варианта допустимы
 new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };  
 new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };  
+
+в спецификации это описано при рассмотрении оператора new
+object-creation-expression:
+  new   type   (   argument-list_opt   )   object-or-collection-initializeropt 
+  new   type   object-or-collection-initializer
+object-or-collection-initializer:
+  object-initializer
+  collection-initializer
+
