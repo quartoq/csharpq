@@ -1,0 +1,4 @@
+если метод возвращает Task<тип>, то результат получается через свойство Result в переменную типа тип
+например
+public Task<string> GetStringFromTask() { return Task.FromResult("строка");}
+string str = GetStringFromTask().Result;
